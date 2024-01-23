@@ -1,0 +1,27 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "my code following the namaste react course",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agira-siva/Namaste-React.git"
+  },
+  "author": "siva rama krishnan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agira-siva/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/agira-siva/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
