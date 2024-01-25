@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.nav-container > ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.nav-container > ul > li{
+    padding: 20px;
+}
+
+.restocards-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.restocard{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
